@@ -10,7 +10,11 @@ class MyHomePage extends StatelessWidget
         title: Text("My App"),
       ),
       drawer: Drawer(
-        child: Text("Haris"),
+        child: Center(
+          child: Container(
+            child: Text("Haris"),
+          ),
+        ),
 
       ),
       body: Center(
